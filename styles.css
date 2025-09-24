@@ -1,0 +1,98 @@
+/*estilo general*/
+body {
+  font-family: Georgia, serif;
+  background-color: rgba(240, 239, 239, 0.26);
+  color: #0c0c0c;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+/*encabezado*/
+header {
+  background-color: #183b7c;
+  color: rgba(240, 241, 241, 0);
+  padding: 2rem;
+  text-align: center;
+}
+header h1 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-size: 2rem;
+}
+header p {
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.89);
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+nav a {
+  color: rgba(255, 255, 255, 0.89);
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/*secciones principales*/
+main {
+  padding: 0 1rem;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+section {
+  margin-bottom: 2rem;
+}
+h2 {
+  border-bottom: 2px solid #1c253d;
+  padding-bottom: 0.2rem;
+  color: #000000;
+}
+/* experiencia y educacion */
+article {
+  background-color: #e0e0e0;
+  border-left: 50px solid #1b1d9e;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+/*listas*/
+ul {
+  padding-left: 1.2rem;
+}
+li {
+  margin-bottom: 0.5rem;
+}
+/*contacto*/
+address {
+  font-style: normal;
+}
+adress a {
+  color: #284cc4;
+  text-decoration: none;
+}
+adress a:hover {
+  text-decoration: underline;
+}
+/*pie de pagina*/
+footer {
+  background-color: #787d80;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2rem;
+}
